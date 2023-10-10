@@ -97,10 +97,3 @@ DELETE FROM orders WHERE order_id = 2;
 SELECT COUNT(*) FROM orders;
 SELECT AVG(total_amount) FROM orders;
 
-
-
--- １
--- ２
--- ３
--- ４
--- ５
