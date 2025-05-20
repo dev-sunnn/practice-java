@@ -10,4 +10,8 @@ public class Calculator {
     public void subtract(double num1, double num2) {
         result = num1 - num2;
     }
+
+    public double getResult() {
+        return this.result;
+    }
 }

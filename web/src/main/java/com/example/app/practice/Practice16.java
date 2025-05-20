@@ -6,19 +6,20 @@ package com.example.app.practice;
 public class Practice16 {
     /** データ型 */
     /** practice 1 */
+    // C) double z = 3.14;
     // D) boolean flag = true;
 
     /** practice 2 */
     // int (整数型)
 
     /** practice 3 */
-    // double (浮動小数点型)
+    // double (浮動小数点型 / 実数型)
 
     /** practice 4 */
     // String (文字列型)
 
     /** practice 5 */
-    // boolean (真偽型)
+    // boolean (真偽型 / 論理型)
 
     /** 表示 */
     /** practice 1 */
@@ -172,15 +173,6 @@ public class Practice16 {
     // }
     // resultの値はfalseです。&&演算子は論理積（AND）を計算します。
     // aとbの両方がtrueでないため、結果はfalseとなります。
-
-    /** practice 5 */
-    // public static void main(String[] args) {
-    //     int x = 5;
-    //     int y = 3;
-    //     boolean result = x > y;
-    //     System.out.println(result);
-    // }
-    // resultの値はtrueです。5は3よりも大きいため、条件式は真となります。
 
     /** クラスとオブジェクト */
     // practice17に格納
