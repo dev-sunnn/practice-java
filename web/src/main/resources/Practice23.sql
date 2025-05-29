@@ -60,7 +60,13 @@ JOIN customers ON orders.customer_id = customers.id
 GROUP BY customers.name, orders.order_date;
 
 -- ５
-SELECT employees.name, departments.name, AVG(employees.salary) AS average_salary
-FROM employees
-JOIN departments ON employees.department_id = departments.id
-GROUP BY employees.name, departments.name;
+SELECT
+    d.name,
+    avg(e.salary)
+FROM
+    departments as d
+    , employees as e
+WHERE
+    d.id = e.department_id
+GROUP BY
+    d.name;
